@@ -6,6 +6,10 @@ In the project directory, you can run:
 
 Run command in terminal to install flux, react-router and bootstrap
 
+## `npm install -D cross-env@5.2.0 npm-run-all@4.1.5 json-server@0.15.0`
+
+Run command to install json-server ( MockApi )
+
 ## `npm start`
 
 Runs the app in the development mode.\
