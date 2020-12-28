@@ -4,6 +4,7 @@ import Header from "./common/Header";
 import HomePage from "./HomePage";
 import CoursesPage from "./CoursesPage";
 import { Route } from "react-router-dom";
+import PageNotFound from "./PageNotFound";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/" exact component={HomePage} />
       <Route path="/about" component={About} />
       <Route path="/courses" component={CoursesPage} />
+      <Route component={PageNotFound} />
     </div>
   );
 }
