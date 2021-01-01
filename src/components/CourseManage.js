@@ -10,19 +10,21 @@ const CourseManage = props => {
     authorId: null,
     category: ""
   })
-  function handerChange({target}) {
+  function handeChange({target}) {
     setCourse({...course, [target.name]: target.value });
   }
 
-function handerSubmit(event){
+function handeSubmit(event){
     event.preventDefault();
-    courseApi.saveCourse(course);
-
+  courseApi.saveCourse(course).then(() => {
+    props.history.push("/courses");
+  });
  }
+
   return (
     <>
       <h1>Course Manage</h1>
-      <CourseForm course={course} onChange={handerChange} onSubmit={handerSubmit}/>
+      <CourseForm course={course} onChange={handeChange} onSubmit={handeSubmit}/>
     </>
   );
 } 
