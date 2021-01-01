@@ -85,6 +85,22 @@
       "authorId": 1,
       "category": "da",
       "createdAt": 1609487572219
+    },
+    {
+      "id": 13,
+      "slug": "dabsecuring-react-apps-with-auth0",
+      "title": "dabSecuring React Apps with Auth0",
+      "authorId": 1,
+      "category": "JavaScript",
+      "createdAt": 1609487899728
+    },
+    {
+      "id": 14,
+      "slug": "dadas",
+      "title": "dadas",
+      "authorId": 1,
+      "category": "JavaScript",
+      "createdAt": 1609489467079
     }
   ],
   "authors": [
