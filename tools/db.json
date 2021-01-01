@@ -2,7 +2,7 @@
   "courses": [
     {
       "id": 1,
-      "title": "Securing React Apps with Auth0",
+      "title": "Securing React Apps with Auth0adfas",
       "slug": "react-auth0-authentication-security",
       "authorId": 1,
       "category": "JavaScript"
@@ -101,6 +101,14 @@
       "authorId": 1,
       "category": "JavaScript",
       "createdAt": 1609489467079
+    },
+    {
+      "id": 15,
+      "slug": "daf",
+      "title": "daf",
+      "authorId": 2,
+      "category": "dsaf",
+      "createdAt": 1609490086577
     }
   ],
   "authors": [
