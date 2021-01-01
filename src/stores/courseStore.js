@@ -39,5 +39,6 @@ Dispatcher.register(action => {
     default:
       
   }
-})
+});
+
 export default store;

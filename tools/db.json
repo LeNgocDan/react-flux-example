@@ -77,6 +77,14 @@
       "authorId": 2,
       "category": "JavaScript",
       "createdAt": 1609474340516
+    },
+    {
+      "id": 12,
+      "slug": "dadas",
+      "title": "dadas",
+      "authorId": 1,
+      "category": "da",
+      "createdAt": 1609487572219
     }
   ],
   "authors": [
