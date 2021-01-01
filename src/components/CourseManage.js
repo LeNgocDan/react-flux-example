@@ -19,7 +19,6 @@ const CourseManage = props => {
 
   useEffect(()=> {
     const slug = props.match.params.slug;
-    console.log(slug);
     if (slug) {
       courseApi.getCourseBySlug(slug).then(_course => setCourse(_course));
     }
