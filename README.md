@@ -8,6 +8,9 @@ Run command in terminal to install flux, react-router and bootstrap
 
 #### `npm install -D cross-env@5.2.0 npm-run-all@4.1.5 json-server@0.15.0`
 
+
+#### `npm install react-toastify@5.1.1`
+
 Run command to install json-server ( MockApi )
 
 #### `npm start`
