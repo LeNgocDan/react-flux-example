@@ -9,14 +9,13 @@ const CourseManage = props => {
     authorId: null,
     category: ""
   })
-  function handerTitleChange(event) {
-  const updateCourse = {...course, title: event.target.value };
-    setCourse(updateCourse);
+  function handerChange({target}) {
+    setCourse({...course, [target.name]: target.value });
   }
   return (
     <>
       <h1>Course Manage</h1>
-      <CourseForm course={course} onTitleChange={handerTitleChange}/>
+      <CourseForm course={course} onChange={handerChange}/>
     </>
   );
 } 
