@@ -2,7 +2,7 @@ import React from "react";
 
 function CourseForm(props) {
   return (
-    <form>
+    <form onSubmit={props.onSubmit}>
       <div className="form-group">
         <label htmlFor="title">Title</label>
         <div className="field">
