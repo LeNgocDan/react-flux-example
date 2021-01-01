@@ -31,7 +31,7 @@ const courses = [
     id: 5,
     title: "Building Applications with React and Redux",
     slug: "react-redux-react-router-es6",
-    authorId: 1,
+    auhorId: 1,
     category: "JavaScript"
   },
   {

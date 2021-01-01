@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "title": "React: The Big Picture",
+      "title": "React: The Big Picturedasfsafdsa",
       "slug": "react-big-picture",
       "authorId": 1,
       "category": "JavaScript"
@@ -32,7 +32,7 @@
       "id": 5,
       "title": "Building Applications with React and Redux",
       "slug": "react-redux-react-router-es6",
-      "authorId": 1,
+      "auhorId": 1,
       "category": "JavaScript"
     },
     {
@@ -74,9 +74,9 @@
       "id": 11,
       "slug": "dadas",
       "title": "dadas",
-      "authorId": 1,
-      "category": "dan",
-      "createdAt": 1609470939797
+      "authorId": 2,
+      "category": "JavaScript",
+      "createdAt": 1609474340516
     }
   ],
   "authors": [
