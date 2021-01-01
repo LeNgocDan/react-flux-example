@@ -15,6 +15,7 @@ function CourseForm(props) {
             value={props.course.title}
           />
         </div>
+        {props.errors.title && (<div className="alert alert-danger">{props.errors.title}</div>)}
       </div>
 
       <div className="form-group">
@@ -32,6 +33,7 @@ function CourseForm(props) {
             <option value="2">Scott Allen</option>
           </select>
         </div>
+        {props.errors.authorId && (<div className="alert alert-danger">{props.errors.authorId}</div>)}
       </div>
 
       <div className="form-group">
@@ -46,6 +48,7 @@ function CourseForm(props) {
             value={props.course.category}
           />
         </div>
+        {props.errors.category && (<div className="alert alert-danger">{props.errors.category}</div>)}
       </div>
 
       <input type="submit" value="Save" className="btn btn-primary" />
