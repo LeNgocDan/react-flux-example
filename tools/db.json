@@ -65,50 +65,11 @@
     },
     {
       "id": 10,
-      "title": "Web Component Fundamentals",
-      "slug": "web-components-shadow-dom",
-      "authorId": 1,
-      "category": "HTML5"
-    },
-    {
-      "id": 11,
-      "slug": "dadas",
-      "title": "dadas",
-      "authorId": 2,
-      "category": "JavaScript",
-      "createdAt": 1609474340516
-    },
-    {
-      "id": 12,
-      "slug": "dadas",
-      "title": "dadas",
-      "authorId": 1,
-      "category": "da",
-      "createdAt": 1609487572219
-    },
-    {
-      "id": 13,
       "slug": "dabsecuring-react-apps-with-auth0",
       "title": "dabSecuring React Apps with Auth0",
       "authorId": 1,
       "category": "JavaScript",
-      "createdAt": 1609487899728
-    },
-    {
-      "id": 14,
-      "slug": "dadas",
-      "title": "dadas",
-      "authorId": 1,
-      "category": "JavaScript",
-      "createdAt": 1609489467079
-    },
-    {
-      "id": 15,
-      "slug": "daf",
-      "title": "daf",
-      "authorId": 2,
-      "category": "dsaf",
-      "createdAt": 1609490086577
+      "createdAt": 1609493720592
     }
   ],
   "authors": [
