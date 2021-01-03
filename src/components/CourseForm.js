@@ -1,22 +1,15 @@
 import React from "react";
+import TextInput from './common/TextInput';
+import SelectInput from './common/SelectInput';
 
 function CourseForm(props) {
   return (
     <form onSubmit={props.onSubmit}>
-      <div className="form-group">
-        <label htmlFor="title">Title</label>
-        <div className="field">
-          <input
-            id="title"
-            type="text"
-            name="title"
-            onChange={props.onChange}
-            className="form-control"
-            value={props.course.title}
-          />
-        </div>
-        {props.errors.title && (<div className="alert alert-danger">{props.errors.title}</div>)}
-      </div>
+      <TextInput name="title"
+        label="Title"
+        value={props.course.title}
+        onChange={props.onChange}
+        error={props.errors.title} />
 
       <div className="form-group">
         <label htmlFor="author">Author</label>
@@ -36,20 +29,12 @@ function CourseForm(props) {
         {props.errors.authorId && (<div className="alert alert-danger">{props.errors.authorId}</div>)}
       </div>
 
-      <div className="form-group">
-        <label htmlFor="category">Category</label>
-        <div className="field">
-          <input
-            type="text"
-            id="category"
+          <TextInput
             name="category"
             onChange={props.onChange}
-            className="form-control"
             value={props.course.category}
+            error={props.errors.category}
           />
-        </div>
-        {props.errors.category && (<div className="alert alert-danger">{props.errors.category}</div>)}
-      </div>
 
       <input type="submit" value="Save" className="btn btn-primary" />
     </form>

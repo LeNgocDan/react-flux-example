@@ -2,14 +2,14 @@
   "courses": [
     {
       "id": 1,
-      "title": "Securing React Apps with Auth0adfas",
+      "title": "Securing React Apps with Auth",
       "slug": "react-auth0-authentication-security",
       "authorId": 1,
       "category": "JavaScript"
     },
     {
       "id": 2,
-      "title": "React: The Big Picturedasfsafdsa",
+      "title": "React: The Big Picture",
       "slug": "react-big-picture",
       "authorId": 1,
       "category": "JavaScript"
@@ -33,7 +33,8 @@
       "title": "Building Applications with React and Redux",
       "slug": "react-redux-react-router-es6",
       "auhorId": 1,
-      "category": "JavaScript"
+      "category": "JavaScript",
+      "authorId": 1
     },
     {
       "id": 6,
@@ -65,11 +66,18 @@
     },
     {
       "id": 10,
+      "title": "Web Component Fundamentals",
+      "slug": "web-components-shadow-dom",
+      "authorId": 1,
+      "category": "HTML5"
+    },
+    {
+      "id": 11,
       "slug": "dabsecuring-react-apps-with-auth0",
       "title": "dabSecuring React Apps with Auth0",
       "authorId": 1,
       "category": "JavaScript",
-      "createdAt": 1609493720592
+      "createdAt": 1609681817267
     }
   ],
   "authors": [
