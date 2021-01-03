@@ -8,8 +8,8 @@ function CourseList(props) {
       <thead>
         <tr>
           <th>&nbsp;</th>
-          <th>Name</th>
-          <th>Author ID</th>
+          <th>Title</th>
+          <th>Author</th>
           <th>Category</th>
         </tr>
       </thead>

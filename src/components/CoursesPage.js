@@ -1,12 +1,28 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import CourseList from "./CourseList";
 import courseStore from '../stores/courseStore';
-import { Link  } from 'react-router-dom';
-import { toast } from 'react-toastify';
-import { loadCourses, deleteCourse } from '../actions/courseAction';
+import {Link} from 'react-router-dom';
+import {toast} from 'react-toastify';
+import {loadCourses, deleteCourse} from '../actions/courseAction';
 
 function CoursesPage() {
   const [courses, setCourses] = useState(courseStore.getCourse());
+  const [authors, seAuthors] = useState(
+    [
+      {
+        "id": 1,
+        "name": "Cory House"
+      },
+      {
+        "id": 2,
+        "name": "Scott Allen"
+      },
+      {
+        "id": 3,
+        "name": "Dan Wahlin"
+      }
+    ]
+  );
 
   useEffect(() => {
     courseStore.addChangeListener(onChange)
@@ -15,7 +31,13 @@ function CoursesPage() {
   }, [courses.length]);
 
   function onChange() {
-    setCourses(courseStore.getCourse());
+    setCourses(courseStore.getCourse())
+    // .map(course => {
+    // return {
+    // ...course,
+    // authorName: authors.find(author => author.id === course.authorId).name
+    // };
+    // }));
   }
 
   function onDelete(id) {
@@ -23,7 +45,7 @@ function CoursesPage() {
       toast.success("Delete success.");
     });
   }
- 
+
   return (
     <>
       <h1>Courses</h1>
@@ -32,4 +54,5 @@ function CoursesPage() {
     </>
   );
 }
+
 export default CoursesPage;
