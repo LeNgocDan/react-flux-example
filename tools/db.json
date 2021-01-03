@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Securing React Apps with Auth",
       "slug": "react-auth0-authentication-security",
-      "authorId": 1,
+      "authorId": 2,
       "category": "JavaScript"
     },
     {
@@ -77,7 +77,7 @@
       "title": "dabSecuring React Apps with Auth0",
       "authorId": 1,
       "category": "JavaScript",
-      "createdAt": 1609681817267
+      "createdAt": 1609682483398
     }
   ],
   "authors": [

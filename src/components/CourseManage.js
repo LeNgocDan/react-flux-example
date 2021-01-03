@@ -13,7 +13,24 @@ const CourseManage = props => {
     title: "",
     authorId: null,
     category: ""
-  })
+})
+// TODO: call api get list authors
+const [authors, seAuthors] = useState(
+[
+  {
+    "id": 1,
+    "name": "Cory House"
+  },
+  {
+    "id": 2,
+    "name": "Scott Allen"
+  },
+  {
+    "id": 3,
+    "name": "Dan Wahlin"
+  }
+]
+);
 
   function handeChange({target}) {
     setCourse({...course, [target.name]: target.value });
@@ -56,7 +73,7 @@ function handeSubmit(event){
   return (
     <>
       <h1>Course Manage</h1>
-      <CourseForm course={course} onChange={handeChange} onSubmit={handeSubmit} errors={errors}/>
+      <CourseForm course={course} authors={authors} onChange={handeChange} onSubmit={handeSubmit} errors={errors}/>
     </>
   );
 } 
